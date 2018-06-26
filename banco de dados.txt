@@ -1,0 +1,9 @@
+CREATE TABLEproduto
+(
+  pid integer NOT NULL ,
+  pnome character varying(50),
+  dtfabricacao date,
+  dtvencimento date,
+  pcategoria character varying(50),
+  pqtd integer
+)
